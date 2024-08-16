@@ -1,10 +1,4 @@
+// https://nitro.unjs.io/guide/typescript
 {
-  "extends": "astro/tsconfigs/strict",
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  },
-  "exclude": ["public"]
+  "extends": "./.nitro/types/tsconfig.json"
 }
